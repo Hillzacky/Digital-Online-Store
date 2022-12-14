@@ -1,0 +1,72 @@
+
+/*
+==============================
+RIGHT TO LEFT - RTL
+==============================
+*/
+body{
+font-family: 'Almarai', sans-serif  !important;
+}
+header a{
+    font-family: 'Almarai', sans-serif   !important;
+    font-size: 14px;
+}
+h2,
+h3,
+h1,
+h4,
+h5,
+h6,
+related-title,
+texttitle-home-3,
+p
+{
+   font-family: 'Almarai', sans-serif   !important;
+}
+
+.uk-navbar-nav a{
+ font-family: 'Almarai', sans-serif   !important;
+}
+.uk-button{
+  font-family: 'Almarai', sans-serif   !important;
+}
+
+.sidebar .nav-item .nav-link{
+	font-family: 'Almarai', sans-serif   !important;
+}
+.social{
+	float: left;
+}
+.video-title a{
+	font-family: 'Almarai', sans-serif   !important;
+}
+.channels-title a{
+	font-family: 'Almarai', sans-serif   !important;
+}
+.box{
+	text-align: right;
+}
+.single-video-author img{
+	float: right;
+	margin: 0 0px 1px 10px;
+}
+.video-card-body{
+	text-align: right;
+}
+.main-title{
+	text-align: right;
+}
+.float-right {
+    float: left !important;
+}
+.btn-dow {
+    float: left;
+    position: relative;
+    bottom: 55px;
+}
+.uk-h1-d {
+  font-size: 95px;
+  line-height: 90px;
+  font-weight: bold;
+  margin-top: 35px;
+}

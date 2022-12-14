@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} -d [OR]
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ ^$1 [N]
+
+    RewriteCond %{REQUEST_URI} (\.\w+$) [NC]
+    RewriteRule ^(.*)$ public/$1 
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ server.php
+     
+   
+    AddType audio/mpeg3 .mp3
+    AddType audio/mp3 .mp3
+    AddType audio/x-mpeg3 .mp3
+    AddType audio/ogg .ogg
+    AddType audio/ogg .oga
+    AddType video/ogg .ogv
+    AddType video/mp4 .mp4
+    AddType video/webm .webm
+
+</IfModule>
